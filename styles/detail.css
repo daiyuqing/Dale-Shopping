@@ -1,0 +1,74 @@
+/*详细页*/
+#content{
+	margin: 0 auto;
+	width: 800px;
+}
+.pro_detail{border: 1px solid #ccc;overflow: hidden;padding: 10px;}
+.pro_detail_left{float: left;width: 380px;overflow: hidden;}
+.pro_detail_left .jqzoom{
+	border:1px solid #BBB;
+	float:left;
+	position:relative;
+	padding:0px;
+	cursor:pointer;
+}
+div.zoomdiv {
+	z-index:999;
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 200px;
+	height: 200px;
+	background: #ffffff;
+	border:1px solid #CCCCCC;
+	display:none;
+	text-align: center;
+	overflow: hidden;
+}
+div.jqZoomPup {
+	z-index: 999;
+	visibility: hidden;
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #aaa;
+	background: #ffffff url(../images/zoomlens.gif) 50% top  no-repeat;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	filter: alpha(Opacity=50);
+}
+.fs{width: 300px;height: 300px;}
+.pro_detail_left>span{padding:10px 120px;display: block;clear: both;}
+.imgList li{float: left;margin-right: 20px;}
+.imgList li img{width: 62px;height: 62px;cursor:pointer;border: 1px solid #ddd;}
+.imgList li img:hover{border: 1px solid #bbb;}
+.tab{clear: both;}
+.tab_menu li{cursor:pointer;float: left;border: 1px solid #ccc;margin-right: 10px;padding: 3px 5px;pointer:cursor;}
+.cli{background: #ccc;}
+.tab_box{clear: both;border: 1px solid #ccc;}
+.tab_box p{text-indent: 2em;}
+.hide{display: none;}
+.pro_detail_right{float: left;width: 380px;}
+.pro_detail_right div{margin: 10px 0;clear: both;}
+.color_change ul li{float: left;margin-right: 5px;width: 26px;height: 26px;}
+.size_select{clear: both;}
+.size_select ul li{float: left;padding:3px 8px;margin-right: 5px;border: 1px solid #ccc;}
+ul li.size_on{border: 1px solid #6959CD;}
+
+.select_num{clear: both;line-height: 40px;}
+.rating{ background: url(../images/star-matrix.gif) no-repeat;background-position: 0 30%;overflow: hidden;height: 16px;}
+.rating li{float: left;width: 16px;text-indent: -999px;}
+.onestars{background-position: 0 60%;}
+.twostars{background-position: 0 70%;}
+.threestars{background-position: 0 80%;}
+.fourstars{background-position: 0 90%;}
+.fivestars{background-position: 0 100%;}
+.nostar{background-position: 0 0%;}
+.onestar{background-position: 0 10%;}
+.twostar{background-position: 0 20%;}
+.threestar{background-position: 0 30%;}
+.fourstar{background-position: 0 40%;}
+.fivestar{background-position: 0 50%;}

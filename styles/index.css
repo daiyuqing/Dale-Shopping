@@ -1,0 +1,76 @@
+#content{
+	margin: 0 auto;
+	width: 800px;
+}
+#content #content_left{
+	float: left;
+	width: 200px;
+	background: #eee;
+	margin-right: 10px;
+	border: 1px solid #ccc;
+}
+#content #content_right{
+	float: right;
+	width: 586px;
+	border: 1px solid #ccc;
+}
+.global_module{
+	position: relative;
+}
+h3{
+	color: #fff;
+	background: #3b5998;
+	height: 20px;
+	padding: 3px 8px;
+	line-height:20px;
+}
+#content #content_left .news .scrollNews{
+	width: 200px;
+	height: 80px;
+	background: #fff;
+	overflow: hidden;
+}
+#content #content_left .news ul{
+	padding: 0 20px;	
+	height: 80px;	
+}
+#content #content_left .news ul li{
+	line-height: 20px;
+}
+.module_up_down{
+	position: absolute;
+	left: 90%;
+	top: 5px;
+	height: 20px;
+}
+.provcatalog{margin-top: 10px;}
+ul.m-treeview{background: #fff;}
+ul.m-treeview li.m-expanded{
+	margin-left: 10px;
+	padding: 10px 20px 0;
+	background: url('../images/treeview-expanded.gif') no-repeat  0 10px ;
+}
+.m-collapsed{
+	margin-left: 10px;
+	padding: 10px 20px 0;
+	background: url('../images/treeview-collapsed.gif') no-repeat  0 10px ;
+}
+ul.m-treeview li.m-expanded ul li{	
+	list-style-image: url('../images/treeview-item.gif');
+	margin: 3px 20px;
+}
+ul.m-treeview li.m-expanded ul li a{color: #000;}
+.ad{width: 588px;height: 150px;overflow: hidden;position: relative;}
+.ad ul.slide{width: 588px;height: 150px;position: absolute;left: 0;top: 0;}
+.ad ul.slide img{width: 588px;height: 150px;display: block;}
+.ad .num{position: absolute;right: 5px;bottom: 5px;}
+.ad .num li{margin-left: 5px;background: #fff;float: left;text-align: center;width: 16px;line-height: 16px;  color: #FF7300;border: 1px solid #FF7300; }
+.ad .num li.on{width: 20px;line-height: 20px;background: #FF7300;color: #fff;margin-top: -4px;font-size: 16px;}
+#img_btn{position: absolute;left: 92%;top: 5px;}
+.prolist{margin-top: 10px;height: 220px;overflow: hidden;width: 588px;position: relative;}
+.prolist ul{height: 220px;overflow: hidden;margin-left: 0;position: absolute;}
+.prolist ul li{float: left; width: 120px;box-sizing: border-box;  padding:10px 0;margin:0 13px;text-align: center;position: relative;}
+.prolist ul li a{display: block;}
+.prolist ul li a img{width: 120px;height: 120px;}
+.prolist ul li span{display: block;width: 100%}
+#imgHover{height: 30px;width: 30px;position: absolute;top: 30%;left: 35%;opacity: 0.5;}

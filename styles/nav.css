@@ -1,0 +1,31 @@
+#navigation{
+	margin: 8px auto;
+	width: 784px;
+	height: 18px;
+	background: #3b5998;
+	padding: 8px;
+}
+#navigation ul li{
+	float: left;
+	margin-right: 14px;
+	position: relative;
+	z-index: 100;
+}
+#navigation ul li a{
+	display: block;
+	color: #fff;
+	font-weight: 700;
+	padding: 0 8px;
+}
+#navigation ul li ul{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 20px;
+	width: 80px;
+	background: #ccc;
+	
+}
+#navigation ul li ul li{border-bottom: 1px solid #7B68EE;}
+#navigation ul li ul a{color: #7A67EE;}
+#navigation ul li:hover ul{display: block;}
